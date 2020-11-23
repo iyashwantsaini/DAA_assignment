@@ -11,6 +11,9 @@ Implement Greedy Fractional Knapsack for the following problems:
 1.N =3, M =  20, (P1, P2, P3) = (25, 24, 15), (W1, W2, W3) =  (18, 15, 10)
 2.N =7, M = 15 , (P1, P2, P3, P4, P5, P6, P7) = (10, 5, 15, 7, 6, 18, 3); (W1, W2, W3, W4, W5, W6, W7) = (2, 3, 5, 7, 1, 4, 1)
 
+Input: First line conatains N= no of items, W= max weight allowed. Second line has profits of N items. Third line has weights of N items
+Output: Max profit we can generate from selecting items that has a total weight : W.
+
 INPUT 1
 3 20
 25 24 15
@@ -24,6 +27,21 @@ INPUT 2
 2 3 5 7 1 4 1
 OUTPUT 2
 55.3333
+
+SAMPLE INPUT 3
+3 50
+60 100 120
+10 20 30
+SAMPLE OUTPUT 3
+240
+
+SAMPLE INPUT 4
+4 60
+280	100	120	120
+40	10	20	24
+SAMPLE OUTPUT 4
+440
+
 
 */
 
