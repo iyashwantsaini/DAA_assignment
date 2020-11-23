@@ -75,7 +75,7 @@ double frac_knap(int n,int m,pair<int,int> *items){
             W+=items[i].second;
             profit+=items[i].first;
         }else{
-            // complete items can't be included, so fractional is included
+            // complete item can't be included, so fractional is included
             // add partial
             profit+=(
                 ((double)(m-W)/(double)items[i].second)*items[i].first
