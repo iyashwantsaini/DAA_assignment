@@ -73,7 +73,7 @@ void partitions(int *s,int n,int k){
     }
     // prefix sums array
     int *psums=new int[n+1];
-    // cost will contain the sum of max valued partition
+    // cost variable will contain the splitting cost
     int cost;
 
     // construct prefixes sums
