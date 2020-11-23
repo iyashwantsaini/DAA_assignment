@@ -5,7 +5,7 @@ Name - Yashwant
 Batch - COE 15
 Ques - 3
 
-Complexity - O(n)
+Complexity - O(n*logn)
 
 Implement Greedy Fractional Knapsack for the following problems:
 1.N =3, M =  20, (P1, P2, P3) = (25, 24, 15), (W1, W2, W3) =  (18, 15, 10)

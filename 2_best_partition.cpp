@@ -5,7 +5,7 @@ Name - Yashwant
 Batch - COE 15
 Ques - 2
 
-Complexity - 
+Complexity - O(k*(n^2))
 
 Suppose the job scanning through a shelf of books is to be split between k workers. 
 To avoid the need to rearrange the books or separate them into piles, we can divide the shelf into k regions and assign each region to one worker. 
