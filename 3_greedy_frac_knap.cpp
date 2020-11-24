@@ -87,7 +87,7 @@ double frac_knap(int n,int m,pair<int,int> *items){
 }
 
 int main(){
-    // n=number of workers, m=total weight required 
+    // n=number of items, m=total weight required 
     int n,m;
     cin>>n>>m;
     // contains profits and weights for 'n' items
